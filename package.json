@@ -2,10 +2,10 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "backend/src/index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node src/index.js",
-    "seed": "babel-node -r ./node_modules/dotenv/config src/seed.js",
+    "start": "nodemon --exec babel-node ./backend/src/index.js",
+    "seed": "babel-node -r ./node_modules/dotenv/config backend/src/seed.js",
     "test": "jest --watchAll"
   },
   "author": "Lehel",
