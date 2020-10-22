@@ -11,6 +11,7 @@
   "author": "Lehel",
   "license": "ISC",
   "dependencies": {
+    "nodemon": "^2.0.4",
     "assert": "^2.0.0",
     "awilix": "^4.2.6",
     "bcrypt": "^5.0.0",
@@ -30,7 +31,6 @@
     "@babel/node": "^7.10.5",
     "@babel/preset-env": "^7.11.5",
     "jest": "^26.5.3",
-    "nodemon": "^2.0.4",
     "supertest": "^5.0.0"
   }
 }
