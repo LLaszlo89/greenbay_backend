@@ -1,19 +1,19 @@
-import * as awilix from "awilix";
+import awilix from "awilix";
 
-import { db } from "./data/connection";
+import { db } from "./data/connection.js";
 
 //Import Controllers & Services
 
-import { SessionService } from "./services/SessionService";
-import { PasswordValidationService } from "./services/PasswordValidationService";
+import { SessionService } from "./services/SessionService.js";
+import { PasswordValidationService } from "./services/PasswordValidationService.js";
 
-import { SessionController } from "./controllers/SessionController";
-import { ItemsController } from "./controllers/ItemsController";
+import { SessionController } from "./controllers/SessionController.js";
+import { ItemsController } from "./controllers/ItemsController.js";
 
-import UserRepository from "./repository/UserRepository";
-import ItemsRepository from "./repository/ItemsRepository";
+import UserRepository from "./repository/UserRepository.js";
+import ItemsRepository from "./repository/ItemsRepository.js";
 
-import { AuthenticateMiddleware } from "./middlewares/authenticate";
+import { AuthenticateMiddleware } from "./middlewares/authenticate.js";
 
 // Create container
 export const container = awilix.createContainer({

@@ -1,7 +1,7 @@
 console.log("IM ALIVE");
 
-import UserRepository from "./repository/UserRepository";
-import ItemsRepository from "./repository/ItemsRepository";
+import UserRepository from "./repository/UserRepository.js";
+import ItemsRepository from "./repository/ItemsRepository.js";
 
 const userRepository = new UserRepository();
 const itemsRepository = new ItemsRepository();

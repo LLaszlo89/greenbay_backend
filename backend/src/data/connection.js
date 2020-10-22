@@ -1,6 +1,5 @@
 import mysql from "mysql";
-import config from "../config";
-require('dotenv').config()
+import config from "../config.js";
 
 const pool = mysql.createPool({
   connectionLimit: 2,

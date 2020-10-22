@@ -1,4 +1,4 @@
-import { db } from "../data/connection";
+import { db } from "../data/connection.js";
 
 export default class ItemsRepository {
   constructor() {}

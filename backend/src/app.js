@@ -1,5 +1,5 @@
 import express from "express";
-import {api} from './routes/index'
+import {api} from './routes/index.js'
 
 //import errorHandler from './middlewares/error-handler';
 

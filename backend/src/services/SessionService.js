@@ -1,5 +1,5 @@
 import jwt from "jsonwebtoken";
-import { createError } from "../models/customError";
+import { createError } from "../models/customError.js";
 
 export class SessionService {
   constructor({ userRepository, passwordValidationService }) {

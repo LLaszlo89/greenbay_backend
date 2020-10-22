@@ -1,4 +1,4 @@
-import { db } from "../data/connection";
+import { db } from "../data/connection.js";
 const default_pic ="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTacIZyPxhaza5nDb3TWqrO51CExzSYEhQnvA&usqp=CAU";
 
 export default class UserRepository {

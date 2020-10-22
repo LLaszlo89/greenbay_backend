@@ -1,7 +1,7 @@
 import express from "express";
 import bodyParser from "body-parser";
 import cors from "cors";
-import { setupDI, container } from "../di-setup";
+import { setupDI, container } from "../di-setup.js";
 
 setupDI();
 
